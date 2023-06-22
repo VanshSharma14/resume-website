@@ -1,6 +1,26 @@
+#__next {
+    flex: 1 1 auto;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    box-sizing: border-box
+}
+
+p {
+    max-width: 100%;
+}
+
+header {
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+}
+
+
 
 .bg-city {
     background: url("../../public/static/h1_background.png") 50% 50%;
