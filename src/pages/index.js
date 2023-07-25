@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import HeadBar from "./components/HeadBar";
+import IG from "./components/IG";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,9 +27,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid h-screen w-screen flex place-items-center content-center bg-black">
-        <p className="font-mono text-white text-8xl"> BALLZZ</p>
-        <p className="font-mono text-white text-8xl"> UR MOM AND UR DAD</p>
+      <div className="grid h-screen w-screen place-items-center content-center bg-black">
+        <IG></IG>
+        <p className="font-mono text-white text-2xl"> Website still under construction 👷</p>
       </div>
     </>
   );

@@ -5,15 +5,8 @@ const HeadBar = () => {
             <p className="w-fit text-green-400 font-mono mx-4 text-xl self-center ">
                 $ git clone git:github@VanshSharma14/resume-website.git
             </p>
-            <a className="inline-block" href="https://github.com/VanshSharma14">
-                <img
-                    className='invert block allign-bottom'
-                    src='/static/github.svg'
-                    style="display: inline-flex;"
-                    height="25"
-                    width="25"
-                    alt="github logo"
-                />
+            <a className="inline-flex" href="https://github.com/VanshSharma14" width="25" height="25">
+                <img className='invert inline-flex allign-bottom' src='/static/github.svg' height="25" width="25" alt="github logo" />
             </a>
         </header>
     );
