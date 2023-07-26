@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/lab": "latest",
+    "@mui/material": "latest",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
+    "react-chrono": "^2.2.2",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
