@@ -37,7 +37,7 @@ export default function Home() {
       <div className="flex flex-col h-fit place-content-center min-h-screen w-100 bg-[#CFDBD5]">
         <h1 className="text-center py-4 text-8xl text-[#333533] font-bold">PROJECTS</h1>
         <Slideshow />
-        <h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1>
+        <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a>
       </div>
     </>
   );
