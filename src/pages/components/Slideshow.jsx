@@ -74,8 +74,8 @@ const Slideshow = () => {
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#E8EDDF]">MealsOnWheels</h5>
                     </a>
                     <p className="mb-3 font-normal text-[#E8EDDF]">Partnered with non-profit organization MealsOnWheels and lead the backend team in creating a full-stack volunteer management system.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-[#F5CB5C] rounded-lg hover:bg-[#e6ad0f] focus:ring-4 focus:outline-none focus:ring-[#fae7b2]">
-                        Private Repo
+                    <a href="https://gregarious-dolphin-16199a.netlify.app/" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-[#F5CB5C] rounded-lg hover:bg-[#e6ad0f] focus:ring-4 focus:outline-none focus:ring-[#fae7b2]">
+                        Website
                     </a>
                 </div>
             </div>
