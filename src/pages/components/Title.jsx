@@ -4,7 +4,7 @@ const Title = () => {
             text-[#333533]">
             <h1 className="tracking-tighter text-8xl font-bold">
                 Hi,
-                <div>I'm </div>
+                <div>I&apos;m </div>
                 <div className="text-[#F5CB5C]">Vansh</div>
                 <div>Sharma</div>
             </h1>

@@ -64,14 +64,14 @@ const Timeline = () => {
 
                     {/* <!-- Content that showing in the box --> */}
                     <div className="flex-auto">
-                        <h1 className="text-lg">Dunkin'</h1>
+                        <h1 className="text-lg">Dunkin&apos;</h1>
                         <h1 className="text-xl font-bold">Shift Leader</h1>
                         <h3>Septermber 2019 - Current</h3>
                     </div>
                     <section href="#" className="text-center text-[#333533]">Management</section>
                 </div>
             </div>
-            <section className="mt-4 text-xl text-center text-[#CFDBD5]">But the journey doesn't end there 🚀</section>
+            <section className="mt-4 text-xl text-center text-[#CFDBD5]">But the journey doesn&apos;t end there 🚀</section>
         </div>
     );
 };
