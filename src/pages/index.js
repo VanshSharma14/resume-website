@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Portfolio - Vansh Sharma</title>
         <meta name="description" content="portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
