@@ -7,6 +7,7 @@ import Title from "./components/Title";
 import Selfie from "./components/Selfie";
 import Timeline from "./components/Timeline";
 import Slideshow from "./components/Slideshow";
+import GAnalytics from "./components/GAnalytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
       </Head>
+      <GAnalytics/>
       <HeadBar/>
       {/* Page 1 */}
       <div className="h-screen w-100 place-content-center bg-[#E8EDDF] flex">
