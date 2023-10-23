@@ -7,7 +7,7 @@ import YouTubeLogo from "./logos/YouTubeLogo";
 const HeadBar = () => {
     return (
         <header className="my-2 w-screen h-12 bg-[#333533] rounded-full flex flex-row place-self-start
-        fixed border-transparent">
+        fixed border-transparent z-50">
             <div className="flex w-screen">
                 <p className="w-auto text-[#F5CB5C] font-mono mx-4 text-xl self-center hidden lg:block ">
                     $ git clone git:github@VanshSharma14/resume-website.git

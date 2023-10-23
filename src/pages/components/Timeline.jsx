@@ -55,7 +55,7 @@ const Timeline = () => {
                 </div>
 
                 {/* <!-- Card 4 --> */}
-                <div className="transform transition cursor-pointer md:block lg:block hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-[#F5CB5C] text-[#333533] rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-[#F5CB5C] text-[#333533] rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                     {/* <!-- Dot Follwing the Left Vertical Line --> */}
                     <div className="w-5 h-5 bg-[#F5CB5C] absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
