@@ -14,12 +14,11 @@ export default function Home() {
     <>
       <Head>
         <title>Portfolio - Vansh Sharma</title>
-        <meta name="description" content="portfolio" />
+        <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="portfolio" />
+        <meta property="og:title" content="Portfolio - Vansh Sharma" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/static/thumbnail.jpg" />
-        <link rel="image_src" href="/static/thumbnail.jpg" />
         <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
       </Head>
       <GAnalytics/>
