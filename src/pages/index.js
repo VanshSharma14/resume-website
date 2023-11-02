@@ -18,6 +18,7 @@ export default function Home() {
         <title>Portfolio - Vansh Sharma</title>
         <meta name="description" content="portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="image_src" href="/static/thumbnail.jpg" />
         <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
       </Head>
       <GAnalytics/>
