@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import HeadBar from "./components/HeadBar";
 import Title from "./components/Title";
 import Selfie from "./components/Selfie";
@@ -18,6 +16,9 @@ export default function Home() {
         <title>Portfolio - Vansh Sharma</title>
         <meta name="description" content="portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="portfolio" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/static/thumbnail.jpg" />
         <link rel="image_src" href="/static/thumbnail.jpg" />
         <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
       </Head>
