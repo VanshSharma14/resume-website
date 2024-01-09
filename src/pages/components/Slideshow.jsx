@@ -41,7 +41,7 @@ const Slideshow = () => {
                     <a href="https://github.com/VanshSharma14/Stock-Double-Bottom-Checker">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#E8EDDF]">Stock Double-Bottom Tracker</h5>
                     </a>
-                    <p className="mb-3 font-normal text-[#E8EDDF]">[Depreciated] Java application that utilizes Yahoo! Finance API to extract stock data and identifies double bottom trends.</p>
+                    <p className="mb-3 font-normal text-[#E8EDDF]">[Deprecated] Java application that utilizes Yahoo! Finance API to extract stock data and identifies double bottom trends.</p>
                     <a href="https://github.com/VanshSharma14/Stock-Double-Bottom-Checker" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-[#F5CB5C] rounded-lg hover:bg-[#e6ad0f] focus:ring-4 focus:outline-none focus:ring-[#fae7b2]">
                         Read more
                     </a>
