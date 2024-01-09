@@ -36,7 +36,7 @@ const HeadBar = () => {
                         <div id="bar3" className="bar"></div>
                     </div>
                     <nav className="nav" id="nav">
-                        <ul>
+                        <ul className="overflow-hidden">
                         <li><a href="#">Home</a></li>
                         <li><a href="#career">Career</a></li>
                         <li><a href="#projects">Projects</a></li>
