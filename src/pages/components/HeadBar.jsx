@@ -28,7 +28,6 @@ const HeadBar = () => {
                 </div>
 
                 {/* Hamburger Menu */}
-                <Script src="/scripts/menuOnClick.js"/>
                 <div id="menu">
                     <div id="menu-bar" onClick={menuOnClick}>
                         <div id="bar1" className="bar"></div>

@@ -8,6 +8,8 @@ import Timeline from "./components/Timeline";
 import Slideshow from "./components/Slideshow";
 import GAnalytics from "./components/GAnalytics";
 import Footer from "./components/Footer";
+import fetch from "node-fetch";
+import spotifyAuth from "../../public/scripts/getSpotifyEmbed";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +30,10 @@ export default function Home() {
       <HeadBar className="items-center" />
       {/* Page 1 */}
       <div className="h-screen w-100 place-content-center bg-[#E8EDDF] flex">
-
+      <div className="absolute top-32 right-15">
+        <div id="SpotifyEmbed" />
+      </div>
+      {/* <Script src="/scripts/getSpotifyEmbed.js"></Script>  */}
         {/* Title + Selfie */}
         <div className="flex place-items-center w-100">
           <Title />
@@ -67,3 +72,5 @@ export default function Home() {
     </>
   );
 }
+
+spotifyAuth(process.env.SPOTIFY_CLIENT_ID, process.env.SPOTIFY_CLIENT_SECRET);
