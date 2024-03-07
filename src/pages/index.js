@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import HeadBar from "./components/HeadBar";
 import Title from "./components/Title";
 import Selfie from "./components/Selfie";
@@ -11,8 +11,8 @@ import Footer from "./components/Footer";
 import fetch from "node-fetch";
 import spotifyAuth from "../../public/scripts/getSpotifyEmbed";
 
-const inter = Inter({ subsets: ["latin"] });
-
+// const inter = Inter({ subsets: ["latin"] });
+let data = await fetch("https://api.spotify.com/v1/me/player/currently-playing", { headers: { "Authorization": `Bearer ${process.env.SPOTIFY_ACCESS_TOKEN}` } });
 export default function Home() {
   return (
     <>
