@@ -10,6 +10,7 @@ import GAnalytics from "./components/GAnalytics";
 import Footer from "./components/Footer";
 import fetch from "node-fetch";
 import spotifyAuth from "../../public/scripts/getSpotifyEmbed";
+import SpotifyEmbed from "./components/SpotifyEmbed";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,7 @@ export default function Home() {
       {/* Page 1 */}
       <div className="h-screen w-100 place-content-center bg-[#E8EDDF] flex">
       <div className="absolute top-32 right-15">
-        <div id="SpotifyEmbed" />
+        <SpotifyEmbed />
       </div>
       {/* <Script src="/scripts/getSpotifyEmbed.js"></Script>  */}
         {/* Title + Selfie */}

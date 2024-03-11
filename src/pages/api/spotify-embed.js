@@ -3,4 +3,5 @@ import spotifyAuth from "../../../public/scripts/getSpotifyEmbed";
 
 export default async function handler(req, res) {
   spotifyAuth(process.env.SPOTIFY_CLIENT_ID, process.env.SPOTIFY_CLIENT_SECRET);
+  res.status(200).json({ message: "Spotify embed fetched" });
 }
