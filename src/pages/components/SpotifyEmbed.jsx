@@ -1,4 +1,4 @@
-await fetch("localhost:3000/api/spotifyAuth");
+await fetch("http://localhost:3000/api/spotifyAuth");
 
 export default async function SpotifyEmbed() {
   return (
