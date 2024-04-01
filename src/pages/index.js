@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       {/* Page 2 */}
-      <div id="career" className="grid h-screen content-center bg-[#242423]">
+      <div id="career" className="grid min-h-screen content-center bg-[#242423]">
         <Timeline />
       </div>
 
