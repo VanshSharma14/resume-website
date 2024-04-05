@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@mui/lab": "latest",
     "@mui/material": "latest",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "framer-motion": "^11.0.24",
     "next": "^13.5.6",
     "react": "18.2.0",
     "react-chrono": "^2.2.2",
