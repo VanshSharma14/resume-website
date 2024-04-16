@@ -1,5 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import css from 'styled-jsx/css';
+import '@styles/globals.css';
 
 const projects = [
     {
@@ -30,7 +32,7 @@ const projects = [
 
 const ProjectCarousel = () => {
     return (
-        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+        <div id="image-track img-body" data-mouse-down-at="0" data-prev-percentage="0">
             {/* a project card with sample props inserted */}
             {projects.map((project, idx) => {
                 return (

@@ -8,6 +8,7 @@ import Timeline from "./components/Timeline";
 import Slideshow from "./components/Slideshow";
 import GAnalytics from "./components/GAnalytics";
 import Footer from "./components/Footer";
+import ProjectCarousel from "./components/ProjectCarousel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,9 +51,10 @@ export default function Home() {
 
       {/* Page 3 */}
       <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">
-        <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
-        <Slideshow />
-        <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a>
+        {/* <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
+        <Slideshow /> */}
+        <ProjectCarousel />
+        {/* <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a> */}
       </div>
 
       {/* Page 4 */}
