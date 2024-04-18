@@ -50,7 +50,8 @@ export default function Home() {
       </div>
 
       {/* Page 3 */}
-      <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">
+      {/* <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">*/}
+      <div className="img-body">
         {/* <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
         <Slideshow /> */}
         <ProjectCarousel />

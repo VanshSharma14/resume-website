@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import css from 'styled-jsx/css';
-import '@styles/globals.css';
 
 const projects = [
     {
