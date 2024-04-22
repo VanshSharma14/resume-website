@@ -50,23 +50,29 @@ export default function Home() {
       </div>
 
       {/* Page 3 */}
-      {/* <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">*/}
-      <div className="img-body">
-        {/* <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
-        <Slideshow /> */}
-        <ProjectCarousel />
+      <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">
+        <div className="img-body">
+          {/* <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
+          <Slideshow /> */}
+          {/* <ProjectCarousel />
+          <Script src="/scripts/imageSlider.js"></Script> */}
+        </div>
         {/* <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a> */}
       </div>
 
       {/* Page 4 */}
-      <div id="footer" className="relative h-screen w-100 bg-[#242423]">
-        <div id="content-wrap" className="flex flex-col h-full pt-24 pb-32 w-auto place-content-center">
-          <text className="text-4xl text-[#F5CB5C] self-center font-bold text-center font-mono">
-            Under Construction 🛠️
-          </text>
+      <div id="footer" className="relative h-screen w-full bg-[#242423]">
+        <text className="text-4xl text-[#F5CB5C] self-center font-bold text-center font-mono">
+          Sliiiideee to the left 🛠️
+        </text>
+        <div id="content-wrap" className="flex flex-col justify-center items-center overflow-clipped">
+          {/* Uncomment below if you want to re-enable the "Under Construction" text */}
+          <ProjectCarousel />
+          <Script src="/scripts/imageSlider.js"></Script>
         </div>
-          <Footer />
+        <Footer className="absolute bottom-0 w-full h-32" />
       </div>
+
     </>
   );
 }
