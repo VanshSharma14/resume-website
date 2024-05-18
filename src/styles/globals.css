@@ -28,13 +28,6 @@ img {
 }
 
 
-.bg-city {
-	background: url("../../public/static/h1_background.png") 50% 50%;
-	background-size: cover;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-
-}
 
 .field {
 	display: flex;
@@ -213,4 +206,131 @@ img {
 	100% {
 		opacity: 1;
 	}
+<<<<<<< Updated upstream
+=======
+}
+
+
+/* for PROJECT CAROUSEL */
+#carousel-flexbox {
+	display:flex;
+	flex-direction: row;
+	overflow: hidden;
+	gap: 4vmin;
+	user-select: none; 
+	flex-shrink: 0;
+}
+
+#carousel-flexbox > .img-card {
+	min-width: 20vmin;
+	height: 56vmin;
+	object-fit: cover;
+	object-position: 100% center;
+	transition: transform 0.5s;
+}
+
+#carousel-flexbox > .img-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)); /* Transparent to black gradient */
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#carousel-flexbox > .img-card:hover::before {
+    opacity: 1;
+}
+
+.project-card {
+    position: relative;
+    width: 26vmin;
+    height: 40vmin;
+    overflow: hidden;
+	gap: 4vmin;
+	user-select: none; /* -- Prevent image highlighting -- */
+}
+
+.img-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+	overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0), rgba(0, 0, 0, 0));
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.img-card:hover .overlay {
+    opacity: 1;
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #ffffff0b;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.5s; /* Fade in */
+    z-index: 2; /* Ensure button is above content */
+}
+
+.img-card:hover .button {
+    opacity: 1; /* Show button on hover */
+}
+
+.content {
+    position: absolute;
+    bottom: 60px; /* Adjust to leave space for button */
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.5s; /* Fade in */
+    z-index: 1; /* Ensure content is below button */
+}
+
+.img-card:hover .content {
+    opacity: 1; /* Fade in on hover */
+}
+
+
+
+#image-track {
+	display: flex;
+	flex-direction: row;
+	gap: 4vmin;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(0%, -50%); 
+	user-select: none; /* -- Prevent image highlighting -- */
+}
+
+#image-track > .image-card {
+	width: 40vmin;
+	height: 56vmin;
+	object-fit: cover;
+	object-position: 100% center;
+>>>>>>> Stashed changes
 }

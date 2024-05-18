@@ -49,11 +49,21 @@ export default function Home() {
       </div>
 
       {/* Page 3 */}
+<<<<<<< Updated upstream
       <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">
         <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
         <Slideshow />
         <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a>
       </div>
+=======
+      {/* <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">*/}
+        {/* <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
+        <Slideshow /> */}
+        <div className="bg-[#303030] min-h-screen w-100 flex flex-row justify-center items-center">
+            <ProjectCarousel />
+        </div>
+        {/* <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a> */}
+>>>>>>> Stashed changes
 
       {/* Page 4 */}
       <div id="footer" className="relative h-screen w-100 bg-[#242423]">
