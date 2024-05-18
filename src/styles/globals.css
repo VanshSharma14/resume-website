@@ -206,8 +206,6 @@ img {
 	100% {
 		opacity: 1;
 	}
-<<<<<<< Updated upstream
-=======
 }
 
 
@@ -332,5 +330,4 @@ img {
 	height: 56vmin;
 	object-fit: cover;
 	object-position: 100% center;
->>>>>>> Stashed changes
 }
