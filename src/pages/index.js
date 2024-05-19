@@ -52,9 +52,11 @@ export default function Home() {
       {/* <div id="projects" className="flex flex-col place-content-center min-h-screen w-100 bg-[#CFDBD5]">*/}
         {/* <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
         <Slideshow /> */}
-        <div className="bg-[#303030] min-h-screen w-100 flex flex-row justify-center items-center">
+        <div id="projects" className="bg-[#303030] bg-gradient-to-br from-[#E8EDDF] to-[#90b59b] bg-cover relative min-h-screen w-100 flex flex-col content-evenly overflow-hidden">
+            <h1 className="text-center py-4 text-4xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">PROJECTS</h1>
             <ProjectCarousel />
         </div>
+        <script src="/scripts/imageSlider.js"></script>
         {/* <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a> */}
 
       {/* Page 4 */}

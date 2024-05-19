@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
                 {/* Overlay gradient on hover */}
                 <div className="overlay"></div>
                 <div className="content">
-                    <h2 className="text-4xl font-bold">{title}</h2>
+                    <h2 className="lg:text-4xl md:text-xl text-lg font-bold">{title}</h2>
                     <p>{description}</p>
                 </div>
                 {/* Button positioned at the bottom */}

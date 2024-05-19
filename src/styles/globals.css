@@ -217,6 +217,11 @@ img {
 	gap: 4vmin;
 	user-select: none; 
 	flex-shrink: 0;
+	position: absolute;
+	width: 100vw;
+	left: 50%;
+	top: 50%;
+	transform: translate(0%, -50%); 
 }
 
 #carousel-flexbox > .img-card {
@@ -225,6 +230,7 @@ img {
 	object-fit: cover;
 	object-position: 100% center;
 	transition: transform 0.5s;
+	flex-shrink: 0;
 }
 
 #carousel-flexbox > .img-card::before {
