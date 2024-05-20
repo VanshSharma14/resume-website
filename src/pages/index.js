@@ -53,7 +53,7 @@ export default function Home() {
         {/* <h1 className="text-center overflow-hidden py-4 text-4xl lg:text-8xl md:text-6xl  text-[#333533] font-bold">PROJECTS</h1>
         <Slideshow /> */}
         <div id="projects" className="bg-[#303030] bg-gradient-to-br from-[#E8EDDF] to-[#90b59b] bg-cover relative min-h-screen w-100 flex flex-col content-evenly overflow-hidden">
-            <h1 className="text-center absolute top-12 left-1/2 -translate-x-1/2 py-4 text-4xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">PROJECTS</h1>
+            <h1 className="text-center absolute top-12 md:top-24 lg:top-48 left-1/2 -translate-x-1/2 py-4 text-4xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">PROJECTS</h1>
             <ProjectCarousel />
         </div>
         <script src="/scripts/imageSlider.js"></script>
