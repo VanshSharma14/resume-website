@@ -1,6 +1,6 @@
 const Title = () => {
     return (
-        <div className="container w-min mx-10 flex flex-col
+        <div className="container w-min md:mx-10 flex flex-col
             text-[#333533]">
             <h1 className="tracking-tighter text-center md:text-left font-bold text-8xl">
                 Hi,

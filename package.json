@@ -13,6 +13,7 @@
     "@emotion/styled": "latest",
     "@mui/lab": "latest",
     "@mui/material": "latest",
+    "colorthief": "^2.4.0",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "next": "^13.5.6",

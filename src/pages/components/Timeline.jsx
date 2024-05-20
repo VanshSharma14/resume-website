@@ -14,7 +14,14 @@ const Timeline = () => {
 
                     {/* <!-- Content that showing in the box --> */}
                     <div className="flex-auto">
-                        <h1 className="text-lg">Google</h1>
+                        <h1 className="text-xl">
+                            <font color="#4285F4">G</font>
+                            <font color="#EA4335">o</font> 
+                            <font color="#FBBC05">o</font> 
+                            <font color="#34A853">g</font>
+                            <font color="#4285F4">l</font>
+                            <font color="#EA4335">e</font>
+                        </h1>
                         <h1 className="text-xl font-bold">Software Engineer Intern</h1>
                         <h3>Summer 2024</h3>
                     </div>
