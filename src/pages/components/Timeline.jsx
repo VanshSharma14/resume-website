@@ -1,6 +1,6 @@
 const Timeline = () => {
     return (
-        <div className="scale-[65%] md:scale-100 w-10/12 md:w-7/12 lg:6/12 mx-auto my-10">
+        <div className="md:scale-100 w-10/12 md:w-7/12 lg:6/12 mx-auto my-10">
             <h1 className="text-3xl text-center font-bold text-[#CFDBD5]">My Career</h1>
             <div className="border-l-2 mt-10">
 
@@ -20,7 +20,8 @@ const Timeline = () => {
                             <font color="#FBBC05">o</font> 
                             <font color="#34A853">g</font>
                             <font color="#4285F4">l</font>
-                            <font color="#EA4335">e</font>
+                            <font color="#EA4335">e </font>
+                            - Sunnyvale, CA
                         </h1>
                         <h1 className="text-xl font-bold">Software Engineer Intern</h1>
                         <h3>Summer 2024</h3>
