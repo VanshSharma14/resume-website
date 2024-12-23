@@ -26,7 +26,7 @@ const Timeline = () => {
                         <h1 className="text-xl font-bold">Software Engineer Intern</h1>
                         <h3>Summer 2024</h3>
                     </div>
-                    <section href="#" className="text-center text-[#333533]">SAML</section>
+                    <section href="#" className="text-center text-[#333533]">SAML, Full Stack, Systems Design</section>
                 </div>
 
                 {/* <!-- Card 1 --> */}

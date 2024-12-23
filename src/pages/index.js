@@ -54,8 +54,8 @@ export default function Home() {
         <Slideshow /> */}
         <div id="projects" className="bg-[#303030] bg-gradient-to-br from-[#E8EDDF] to-[#90b59b] bg-cover relative min-h-screen w-100 flex flex-col content-evenly overflow-hidden">
             <ProjectCarousel />
-            <h1 className="text-center absolute top-20 md:top-28 lg:top-52 left-1/2 -translate-x-1/2 py-4 text-4xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">PROJECTS</h1>
-            <h1 className="text-center absolute bottom-20 md:bottom-28 lg:bottom-52 left-1/2 -translate-x-1/2 py-4 text-6xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">⟷</h1>
+            <h1 className="text-center absolute top-20 md:top-28 lg:top-28 left-1/2 -translate-x-1/2 py-4 text-4xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">PROJECTS</h1>
+            <h1 className="text-center absolute bottom-20 md:bottom-28 lg:bottom-28 left-1/2 -translate-x-1/2 py-4 text-6xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">⟷</h1>
         </div>
         <script src="/scripts/imageSlider.js"></script>
         <script src="/scripts/bgTransition.js"></script>
