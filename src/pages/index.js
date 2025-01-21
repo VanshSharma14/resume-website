@@ -29,6 +29,9 @@ export default function Home() {
       {/* Page 1 */}
       <div className="h-screen w-100 place-content-center bg-[#E8EDDF] flex">
 
+        {/* import an image absolute position it top left down 5% */}
+        <img src="/static/home-page/resume_arrow.png" className="absolute top-12 left-7 transform scale-50 lg:scale-75 origin-top-left" alt="" />
+
         {/* Title + Selfie */}
         <div className="flex place-items-center w-100">
           <Title />

@@ -5,7 +5,7 @@ const projects = [
         title: "Car Soccer",
         description: "A retro 2D replica of Rocket League featuring a dynamic UI, complex hitbox manipulation and 2 player support!",
         imageUrl: "/static/car-soccer.jpg",
-        link: ""
+        link: "https://github.com/VanshSharma14/Car-Soccer"
     },
     {
         title: "Combined Community Action",
@@ -17,13 +17,13 @@ const projects = [
         title: "LegBot",
         description: "Discord bot that uses MongoDB, GPT3 and other plugins and commands for a high-utility discord experience.",
         imageUrl: "/static/legbot.jpg",
-        link: ""
+        link: "https://github.com/VanshSharma14/LegBot"
     },
     {
         title: "Stock Double-Bottom Tracker",
-        description: "[HackRU] Java application that utilizes Yahoo! Finance API to extract stock data and identifies double bottom trends.",
+        description: "[HackRU 2021] Java application that utilizes Yahoo! Finance API to extract stock data and identifies double bottom trends.",
         imageUrl: "/static/double-bottom.jpg",
-        link: ""
+        link: "https://github.com/VanshSharma14/Stock-Double-Bottom-Checker"
     },
 
     {
@@ -36,7 +36,7 @@ const projects = [
         title: "Vim Loader",
         description: "A fast-paced, lightweight IDE for Unix-based terminals that can be set up almost instantly, making it ideal for use in VMs or newly configured terminals",
         imageUrl: "/static/vim-loader.jpg",
-        link: ""
+        link: "https://github.com/VanshSharma14/vim-loader"
     },
 
     // {
