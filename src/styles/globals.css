@@ -1,3 +1,18 @@
+/* Palette (https://coolors.co/cfdbd5-e8eddf-f5cb5c-242423-333533) */
+:root {
+	--color-light-variant: #CFDBD5;
+	--color-light: #E8EDDF;
+	--color-gold: #F5CB5C;
+	--color-dark-bold: #242423;
+	--color-dark: #333533;
+
+	/* Back-compat aliases (in case older code references these) */
+	--color-mist: var(--color-light-variant);
+	--color-foam: var(--color-light);
+	--color-ink: var(--color-dark-bold);
+	--color-charcoal: var(--color-dark);
+}
+
 #__next {
 	flex: 1 1 auto;
 }
@@ -8,6 +23,17 @@
 
 * {
 	box-sizing: border-box
+}
+
+/* Gradient border technique (CSS-Tricks): https://css-tricks.com/gradient-borders-in-css/ */
+.vs-gradient-border {
+	border: 1px solid transparent;
+	/* Inner background (dark) + outer gradient (border only). */
+	background-image:
+		linear-gradient(var(--color-dark), var(--color-dark-bold)),
+		linear-gradient(135deg, var(--color-gold) 0%, var(--color-light-variant) 45%, var(--color-light) 100%);
+	background-origin: padding-box, border-box;
+	background-clip: padding-box, border-box;
 }
 
 p {

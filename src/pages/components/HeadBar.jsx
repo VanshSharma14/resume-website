@@ -13,10 +13,10 @@ function menuOnClick() {
 
 const HeadBar = () => {
     return (
-        <header className="my-2 w-screen h-12 bg-[#333533] rounded-full flex flex-row place-self-start
+        <header className="my-2 w-screen h-12 bg-[var(--color-dark)] rounded-full flex flex-row place-self-start
         fixed border-transparent z-50">
             <div className="flex w-screen">
-                <p className="w-auto text-[#F5CB5C] font-mono ml-16 mx-4 text-xl self-center hidden lg:block ">
+                <p className="w-auto text-[var(--color-gold)] font-mono ml-16 mx-4 text-xl self-center hidden lg:block ">
                     $ git clone git:github@VanshSharma14/resume-website.git
                 </p>
                 <div className="flex m-auto lg:mr-4 space-x-4 w-auto justify-evenly lg:justify-end">

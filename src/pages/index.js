@@ -6,6 +6,7 @@ import GAnalytics from "./components/GAnalytics";
 import HeadBar from "./components/HeadBar";
 import ProjectCarousel from "./components/ProjectCarousel";
 import Selfie from "./components/Selfie";
+import SpotifyNowPlaying from "./components/SpotifyNowPlaying";
 import Timeline from "./components/Timeline";
 import Title from "./components/Title";
 
@@ -27,7 +28,7 @@ export default function Home() {
       <GAnalytics />
       <HeadBar className="items-center" />
       {/* Page 1 */}
-      <div className="h-screen w-100 place-content-center bg-[#E8EDDF] flex">
+      <div className="h-screen w-100 place-content-center bg-[var(--color-light)] flex">
 
         {/* import an image absolute position it top left down 5% */}
         <img src="/static/home-page/resume_arrow.png" className="absolute top-12 left-7 transform scale-50 lg:scale-75 origin-top-left" alt="" />
@@ -47,26 +48,27 @@ export default function Home() {
       </div>
 
       {/* Page 2 */}
-      <div id="career" className="grid min-h-screen content-center bg-[#242423]">
+      <div id="career" className="grid min-h-screen content-center bg-[var(--color-dark-bold)]">
         <Timeline />
       </div>
 
       {/* Page 3 */}
-        <div id="projects" className="bg-[#303030] bg-gradient-to-br from-[#E8EDDF] to-[#90b59b] bg-cover relative min-h-screen w-100 flex flex-col content-evenly overflow-hidden">
+        <div id="projects" className="bg-[#303030] bg-gradient-to-br from-[var(--color-light)] to-[#90b59b] bg-cover relative min-h-screen w-100 flex flex-col content-evenly overflow-hidden">
             <ProjectCarousel />
-            <h1 className="text-center absolute top-[56px] left-1/2 -translate-x-1/2 py-4 text-4xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">PROJECTS</h1>
-            <h1 className="text-center absolute bottom-[32px] md:bottom-[40px] lg:bottom-[56px] left-1/2 -translate-x-1/2 py-4 text-6xl lg:text-8xl md:text-6xl text-[#242423] font-bold select-none">⟷</h1>
+            <h1 className="text-center absolute top-[56px] left-1/2 -translate-x-1/2 py-4 text-4xl lg:text-8xl md:text-6xl text-[var(--color-dark-bold)] font-bold select-none">PROJECTS</h1>
+            <h1 className="text-center absolute bottom-[32px] md:bottom-[40px] lg:bottom-[56px] left-1/2 -translate-x-1/2 py-4 text-6xl lg:text-8xl md:text-6xl text-[var(--color-dark-bold)] font-bold select-none">⟷</h1>
         </div>
         <script src="/scripts/imageSlider.js"></script>
         <script src="/scripts/bgTransition.js"></script>
         {/* <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a> */}
 
       {/* Page 4 */}
-      <div id="footer" className="relative h-screen w-100 bg-[#242423]">
+      <div id="footer" className="relative h-screen w-100 bg-[var(--color-dark-bold)]">
+        <SpotifyNowPlaying className="absolute right-6 top-[72px] z-10 hidden sm:block" />
         <div id="content-wrap" className="flex flex-col h-full pt-24 pb-32 w-auto place-content-center">
-          <text className="text-4xl text-[#F5CB5C] self-center font-bold text-center font-mono">
-            Under Construction 🛠️
-          </text>
+          <h1 className="text-4xl text-[var(--color-gold)] self-center font-bold text-center font-mono">
+            Music Zone
+          </h1>
         </div>
           <Footer />
       </div>
