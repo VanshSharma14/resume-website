@@ -1,7 +1,6 @@
 const TOKEN_ENDPOINT = "https://accounts.spotify.com/api/token";
 
 const getTokens = async ({ code, redirectUri }) => {
-  // TODO: Add SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET to your .env.local
   const clientId = process.env.SPOTIFY_CLIENT_ID;
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 

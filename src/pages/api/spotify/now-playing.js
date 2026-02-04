@@ -3,8 +3,6 @@ const NOW_PLAYING_ENDPOINT =
   "https://api.spotify.com/v1/me/player/currently-playing?additional_types=track,episode";
 
 const getAccessToken = async () => {
-  // TODO: Add SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, and SPOTIFY_REFRESH_TOKEN to your .env.local
-  // TODO: Ensure the refresh token includes the `user-read-currently-playing` or `user-read-playback-state` scope.
   const clientId = process.env.SPOTIFY_CLIENT_ID;
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
   const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;

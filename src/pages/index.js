@@ -4,9 +4,9 @@ import Script from "next/script";
 import Footer from "./components/Footer";
 import GAnalytics from "./components/GAnalytics";
 import HeadBar from "./components/HeadBar";
+import MusicZoneSection from "./components/MusicZoneSection";
 import ProjectCarousel from "./components/ProjectCarousel";
 import Selfie from "./components/Selfie";
-import SpotifyNowPlaying from "./components/SpotifyNowPlaying";
 import Timeline from "./components/Timeline";
 import Title from "./components/Title";
 
@@ -36,7 +36,7 @@ export default function Home() {
         {/* Title + Selfie */}
         <div className="flex place-items-center w-100">
           <Title />
-          <Selfie className="sm:hidden" />
+          <Selfie />
         </div>
 
         {/* Scroll animation */}
@@ -63,14 +63,12 @@ export default function Home() {
         {/* <a href='https://drive.google.com/file/d/1s5HixOI4QzvV7Pmn70WMl8f4bgcaZW8r/view?usp=drive_link'><h1 className="text-center py-4 font-bold text-3xl">Click for my resume!</h1></a> */}
 
       {/* Page 4 */}
-      <div id="footer" className="relative h-screen w-100 bg-[var(--color-dark-bold)]">
-        <SpotifyNowPlaying className="absolute right-6 top-[72px] z-10 hidden sm:block" />
-        <div id="content-wrap" className="flex flex-col h-full pt-24 pb-32 w-auto place-content-center">
-          <h1 className="text-4xl text-[var(--color-gold)] self-center font-bold text-center font-mono">
-            Music Zone
-          </h1>
-        </div>
-          <Footer />
+      <div
+        id="footer"
+        className="relative min-h-screen w-100 overflow-hidden bg-[var(--color-dark-bold)]"
+      >
+        <MusicZoneSection />
+        <Footer />
       </div>
     </>
   );

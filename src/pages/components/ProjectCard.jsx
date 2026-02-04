@@ -38,7 +38,7 @@ const ProjectCard = (props) => {
     
 
     return (
-        <div className="project-card rounded-3xl flex-shrink-0 min-w-80 h-80 w-48 md:w-80 md:h-[500px]" onMouseEnter={handleMouseEnter} style={{ backgroundImage: `url(${imageUrl})` }}>
+        <div className="project-card rounded-3xl flex-shrink-0 w-[288px] h-[420px] md:w-80 md:h-[500px]" onMouseEnter={handleMouseEnter} style={{ backgroundImage: `url(${imageUrl})` }}>
                 <div className="img-card" style={{ backgroundImage: `url(${imageUrl})` }}>
                     {/* Overlay gradient on hover */}
                     <div className="overlay"></div>
