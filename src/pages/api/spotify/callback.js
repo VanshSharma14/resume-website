@@ -5,6 +5,8 @@ const getTokens = async ({ code, redirectUri }) => {
   const clientId = process.env.SPOTIFY_CLIENT_ID;
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 
+  console.log("ClientID: " + process.env.clientId, )
+
   if (!clientId || !clientSecret) {
     return { error: "Missing Spotify client credentials" };
   }

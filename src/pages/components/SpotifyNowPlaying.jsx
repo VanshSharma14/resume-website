@@ -63,7 +63,7 @@ const SpotifyNowPlaying = ({ className = "" }) => {
           title="Spotify player"
           src={embedUrl}
           width="320"
-          height="80"
+          height="82"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
           frameBorder="0"
