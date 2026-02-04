@@ -7,6 +7,7 @@ import HeadBar from "./components/HeadBar";
 import MusicZoneSection from "./components/MusicZoneSection";
 import ProjectCarousel from "./components/ProjectCarousel";
 import Selfie from "./components/Selfie";
+import SpotifyNowPlaying from "./components/SpotifyNowPlaying";
 import Timeline from "./components/Timeline";
 import Title from "./components/Title";
 
@@ -28,7 +29,8 @@ export default function Home() {
       <GAnalytics />
       <HeadBar className="items-center" />
       {/* Page 1 */}
-      <div className="h-screen w-100 place-content-center bg-[var(--color-light)] flex">
+      <div className="relative h-screen w-100 place-content-center bg-[var(--color-light)] flex">
+        <SpotifyNowPlaying className="absolute right-6 top-[72px] z-20 hidden md:block lg:hidden" />
 
         {/* import an image absolute position it top left down 5% */}
         <img src="/static/home-page/resume_arrow.png" className="absolute top-12 left-7 transform scale-50 lg:scale-75 origin-top-left" alt="" />
