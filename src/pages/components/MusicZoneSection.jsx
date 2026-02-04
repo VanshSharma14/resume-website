@@ -121,7 +121,7 @@ const MusicZoneSection = () => {
 
       <div className="flex flex-1 items-center py-[24px] xl:pb-[128px]">
         <div className="mx-auto w-full max-w-[980px]">
-          <div className="mb-[24px] hidden items-center justify-between gap-[24px] lg:flex 2xl:hidden">
+          <div className="mb-[24px] hidden items-start justify-between gap-[24px] lg:flex 2xl:hidden">
             <div className="text-left">
               {heading}
             </div>
